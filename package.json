@@ -15,8 +15,8 @@
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Aien Pahlevan",
+  "license": "MIT",
   "peerDependencies": {
     "react": ">=18"
   },
