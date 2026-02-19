@@ -3,5 +3,5 @@ import { TValidationSchema } from "./types";
 import { validateForm } from "./validation/validateForm";
 import VALIDATION_RULES from "./validation/rules";
 
-export { useForm, validateForm, VALIDATION_RULES };
+export { useForm, validateForm, VALIDATION_RULES as VR };
 export type { TValidationSchema };
