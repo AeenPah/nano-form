@@ -28,5 +28,12 @@
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
     "vitest": "^4.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AeenPah/nano-form.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AeenPah/nano-form/issues"
   }
 }

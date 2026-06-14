@@ -4,13 +4,13 @@ const VALIDATION_RULES = {
   required:
     (message?: string): TValidationRule =>
     (val: string) =>
-      !val ? message || "این فیلد ضروری می‌باشد." : null,
+      !val ? message || "This field is required." : null,
 
   phoneNumber:
     (message?: string): TValidationRule =>
     (val: string) =>
       !/^[0-9]{10,15}$/.test(val)
-        ? message || "شماره‌تلفن معتبر نمی‌باشد."
+        ? message || "The phone number is not valid."
         : null,
 
   email:
@@ -18,7 +18,7 @@ const VALIDATION_RULES = {
     (val: string) =>
       /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val) || !val
         ? null
-        : message || "آدرس ایمیل معتبر نمی‌باشد.",
+        : message || "The email address is not valid.",
 };
 
 export default VALIDATION_RULES;
